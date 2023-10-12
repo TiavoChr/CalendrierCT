@@ -24,7 +24,7 @@
         var annee = document.getElementById("annee").value;
 
         var xhr = new XMLHttpRequest();
-        var url = 'http://localhost/bibliothequeCalendrier/api.php'; // Mettez à jour l'URL de votre API locale
+        var url = 'http://localhost/bibliothequeCalendrier/api.php'; // Mettez à jour l'URL de votre API locale (url serveur + dossier de l'api)
 
         var data = new FormData();
         data.append('mois', mois);
