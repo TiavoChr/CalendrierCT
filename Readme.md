@@ -1,4 +1,4 @@
-# Application client affichage graohique du calendrier
+# Application client affichage graphique du calendrier
 
 ## Mise en place
 
