@@ -4,7 +4,7 @@
     <title>Application de Calendrier</title>
 </head>
 <body>
-    <h1>Générer un Calendrier</h1>
+    <h1>Générer un Calendrier avec Événements</h1>
     <form id="calendrierForm">
         <label for="mois">Mois (1-12) :</label>
         <input type="number" id="mois" name="mois" min="1" max="12" required><br><br>
@@ -24,7 +24,7 @@
         var annee = document.getElementById("annee").value;
 
         var xhr = new XMLHttpRequest();
-        var url = 'http://localhost/bibliothequeCalendrier/api.php'; // URL sevreur + dossier application
+        var url = 'http://localhost/bibliothequeCalendrier/api.php'; // Mettez à jour l'URL de votre API locale
 
         var data = new FormData();
         data.append('mois', mois);
